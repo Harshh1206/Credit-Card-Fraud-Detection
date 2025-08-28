@@ -1,6 +1,6 @@
-# Credit Card Fraud Detection
+# # Credit Card Fraud Detection
 
-This repository contains a machine learning project to detect fraudulent credit card transactions using various data science techniques. The project utilizes a real-world dataset and applies preprocessing, balancing, and classification to identify fraudulent cases.
+This repository contains a machine learning project to detect fraudulent credit card transactions using various data science techniques. The project utilizes a real-world dataset and applies preprocessing, modeling, and evaluation to predict fraudulent activity.
 
 ## Dataset
 
@@ -49,6 +49,23 @@ pip install numpy pandas scikit-learn imbalanced-learn matplotlib
 
 The model demonstrates effective fraud detection using logistic regression after balancing the dataset.
 
+---
+
+## GUI Output
+
+A graphical user interface (GUI) was created in Google Colab to allow users to interactively input transaction details and receive predictions on whether a transaction is fraudulent or legitimate.
+
+<img width="1919" height="918" alt="Screenshot 2025-08-28 215302" src="https://github.com/user-attachments/assets/2c063ca0-918d-459a-bbff-47e12de959dd" />
+
+
+**Features Used in the GUI:**
+- `V4`, `V11`, `V2`: These are encrypted credit card indicators that play a crucial role in deciding if the transaction is fraudulent or legitimate.
+- `Amount`: The transaction amount.
+
+Users can enter values for these features and submit the form to receive a prediction. The output section displays whether the transaction is flagged as fraudulent or legitimate.
+
+---
+
 ## License
 
 This project is for educational purposes.
@@ -58,3 +75,4 @@ This project is for educational purposes.
 - Harshh1206
 - munnss
 - devanshKale1025
+  
